@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Sidebar from "../../components/Sidebar";
 
 import { RiAddLine, RiPencilLine } from 'react-icons/ri'
+import Pagination from "../../components/Form/Pagination";
 
 export default function Userlist() {
   return (
@@ -147,6 +148,8 @@ export default function Userlist() {
               </Tr>
             </Tbody>
           </Table>
+
+          <Pagination />
         </Box>
       </Flex>
     </Box>
